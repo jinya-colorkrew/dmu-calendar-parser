@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "calendar_parser"
+version = "0.1.0"
+description = ""
+authors = ["Jinya-Nomura <jinya.nomura@colorkrew.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyexcel = "^0.7.0"
+pyexcel-xlsx = "^0.6.0"
+pytz = "^2023.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
